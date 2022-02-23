@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Util.ExceptionLibrary</AssemblyName>
+    <RootNamespace>Util.ExceptionLibrary</RootNamespace>
+  </PropertyGroup>
+
+</Project>
