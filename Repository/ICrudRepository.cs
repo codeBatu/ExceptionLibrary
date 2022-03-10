@@ -21,6 +21,18 @@ namespace Util.ExceptionLibrary.Repository
         bool ExitsById(ID id);
         IEnumerable<T> SaveAll(IEnumerable<T> entities);
         IEnumerable<T> FindAll();
+        //////
+      Task < T> SaveAsync(T entity);
+     Task<   long> CountAsync();
+       Task  DeleteAsync(T entity);
+      Task  DeleteAllAsync();
+       Task DeleteAllAsync(IEnumerable<T> entities);
+        Task DeleteAllByIdAsync(IEnumerable<ID> ids);
+        Task DeleteByIdAsync(ID id);
+        Task<T> FindByIdAsync(ID id);
+       Task< bool> ExitsByIdAsync(ID id);
+        Task<IEnumerable<T>> SaveAllAsync(IEnumerable<T> entities);
+       Task< IEnumerable<T>> FindAllAsync();
     }
 
 }
